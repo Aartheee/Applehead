@@ -40,5 +40,6 @@ r.keyRelease(KeyEvent.VK_CONTROL);
 r.keyRelease(KeyEvent.VK_V);	
 Thread.sleep(5000);
 driv.findElement(By.name("login")).click();
+System.out.println("GIT CHECK");
 }
 }
